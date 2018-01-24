@@ -20,7 +20,7 @@ spring:
 #  
 eureka:
   instance:
-    hostname: accountservice  #localhost accountservice 
+    hostname: localhost   #localhost accountservice 
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/     
